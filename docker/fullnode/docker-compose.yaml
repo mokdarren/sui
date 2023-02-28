@@ -2,7 +2,7 @@
 version: "3.9"
 services:
   fullnode:
-    image: mysten/sui-node:stable
+    image: mysten/sui-node:598f106ef5fbdfbe1b644236f0caf46c94f4d1b7
     ports:
     - "9000:9000"
     - "9184:9184"
